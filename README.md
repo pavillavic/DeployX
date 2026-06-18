@@ -1,19 +1,7 @@
-================================================================================
+
                                   DeployX
-================================================================================
 
-[EN] English .............................. Scroll down
-[ES] Español .............................. Desplázate hacia abajo
-[FR] Français ............................. Faire défiler vers le bas
-[DE] Deutsch .............................. Nach unten scrollen
-[PT] Português ............................ Role para baixo
-[ZH] 中文 (Chinese) ........................ 向下滚动
-[JA] 日本語 (Japanese) ..................... 下にスクロール
-[RU] Русский (Russian) .................... Прокрутите вниз
-
-================================================================================
  EN - ENGLISH
-================================================================================
 Welcome to DeployX! 
 DeployX is a powerful graphical tool for Windows designed to interact with 
 Android devices via ADB (Android Debug Bridge). Its goal is to make maintaining, 
@@ -106,9 +94,7 @@ Developed by Pablo Villavicencio
 Connection Engine: Android Debug Bridge (ADB)
 Web Interface: Microsoft Edge WebView2
 
-================================================================================
  ES - ESPAÑOL
-================================================================================
 ¡Bienvenido a DeployX! 
 DeployX es una potente herramienta gráfica para Windows diseñada para interactuar 
 con dispositivos Android a través de ADB (Android Debug Bridge). Su objetivo es 
@@ -199,9 +185,7 @@ Desarrollado por Pablo Villavicencio
 Motor de conexión: Android Debug Bridge (ADB)
 Interfaz Web: Microsoft Edge WebView2
 
-================================================================================
  FR - FRANÇAIS
-================================================================================
 Bienvenue sur DeployX ! 
 DeployX est un outil graphique puissant pour Windows conçu pour interagir avec 
 les appareils Android via ADB (Android Debug Bridge). Son but est de faciliter 
@@ -274,9 +258,7 @@ Développé par Pablo Villavicencio
 Moteur de connexion : Android Debug Bridge (ADB)
 Interface Web : Microsoft Edge WebView2
 
-================================================================================
  DE - DEUTSCH
-================================================================================
 Willkommen bei DeployX! 
 DeployX ist ein leistungsstarkes grafisches Tool für Windows, das für die Interaktion 
 mit Android-Geräten über ADB (Android Debug Bridge) entwickelt wurde. Es erleichtert 
@@ -413,9 +395,7 @@ Desenvolvido por Pablo Villavicencio
 Motor de conexão: Android Debug Bridge (ADB)
 Interface Web: Microsoft Edge WebView2
 
-================================================================================
  ZH - 中文 (CHINESE)
-================================================================================
 欢迎使用 DeployX！
 DeployX 是一款功能强大的 Windows 图形化工具，旨在通过 ADB (Android Debug Bridge) 
 与 Android 设备进行交互。它的目标是简化设备的维护、调试和管理，让您无需在控制台中
@@ -551,9 +531,7 @@ A: 重要なファイルが不足しています。"WebView2Loader.dll" が "Dep
 接続エンジン：Android Debug Bridge (ADB)
 ウェブインターフェース：Microsoft Edge WebView2
 
-================================================================================
  RU - РУССКИЙ (RUSSIAN)
-================================================================================
 Добро пожаловать в DeployX! 
 DeployX — это мощный графический инструмент для Windows, предназначенный для 
 взаимодействия с устройствами Android через ADB (Android Debug Bridge). Его цель — 
@@ -623,4 +601,3 @@ DeployX — это мощный графический инструмент дл
 Разработчик: Pablo Villavicencio
 Движок подключения: Android Debug Bridge (ADB)
 Веб-интерфейс: Microsoft Edge WebView2
-================================================================================
