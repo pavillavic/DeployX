@@ -14,6 +14,8 @@ DeployX is a powerful graphical tool for Windows designed to interact with Andro
 <img width="786" height="682" alt="Captura de pantalla 2026-06-18 102122" src="https://github.com/user-attachments/assets/d0cd5ee3-5da9-47f9-afe4-2f7c08958b8e" />
 <img width="786" height="682" alt="Captura de pantalla 2026-06-18 102116" src="https://github.com/user-attachments/assets/99c96593-cd08-42d4-9ed7-ecffff9378cc" />
 <img width="786" height="682" alt="Captura de pantalla 2026-06-18 102101" src="https://github.com/user-attachments/assets/71b095dc-85c7-400f-8bbc-c8b1fd318f9f" />
+<img width="788" height="685" alt="Captura de pantalla 2026-06-20 052418" src="https://github.com/user-attachments/assets/28e6cd38-2b2e-49eb-a4d1-727719156ea1" />
+
 
 ### 1. PREREQUISITES AND IMPORTANT WARNINGS
 For DeployX to work properly, you need the following:
@@ -61,6 +63,11 @@ A: You are missing vital files. Ensure the `WebView2Loader.dll` file is in the e
 
 **Q: I try to install an APK but get an error.**
 A: Check that you have enough storage space and that a newer version of the app isn't already installed.
+
+### CHANGELOG (v1.0.1)
+* **New features:** Added "High Quality (H.265)" mode and FPS selector (30, 24, 15) for screen mirroring/recording with scrcpy.
+* **Bug fixes:** Resolved an issue where screen recordings were not saving to the selected path.
+* **Critical patches:** Fixed a bug causing the internal browser (WebView2) to display a blank screen when opening app stores in the installed version.
 
 **Credits:**
 * **Developed by:** Pablo Villavicencio
@@ -121,6 +128,11 @@ R: Te faltan archivos vitales. Asegúrate de que el archivo `WebView2Loader.dll`
 **P: Intento instalar un APK pero me da error.**
 R: Verifica que tengas suficiente espacio de almacenamiento y que la aplicación no esté ya instalada con una versión más nueva.
 
+### NOVEDADES EN v1.0.1
+* **Nuevas funciones:** Se agregó el modo "Alta Calidad (H.265)" y un selector de FPS (30, 24, 15) para la transmisión y grabación de pantalla con scrcpy.
+* **Correcciones:** Se solucionó un problema donde las grabaciones de pantalla no se guardaban en la ruta elegida.
+* **Parches críticos:** Se solucionó el error que dejaba en blanco el navegador interno (WebView2) al abrir las tiendas de aplicaciones en la versión instalada.
+
 **Créditos:**
 * **Desarrollado por:** Pablo Villavicencio
 * **Motor de conexión:** Android Debug Bridge (ADB)
@@ -177,6 +189,11 @@ R : Cela se produit pour trois raisons principales :
 **Q : Le programme s'ouvre mais se ferme presque immédiatement.**
 R : Il vous manque des fichiers vitaux. Assurez-vous que le fichier `WebView2Loader.dll` se trouve dans le même dossier que `DeployX.exe`.
 
+### NOUVEAUTÉS DE LA v1.0.1
+* **Nouvelles fonctionnalités :** Ajout du mode "Haute Qualité (H.265)" et d'un sélecteur de FPS (30, 24, 15) pour la mise en miroir/enregistrement d'écran avec scrcpy.
+* **Corrections :** Résolution d'un problème où les enregistrements d'écran n'étaient pas sauvegardés dans le chemin sélectionné.
+* **Correctif critique :** Correction d'un bug provoquant l'affichage d'un écran blanc par le navigateur interne (WebView2) lors de l'ouverture des magasins d'applications dans la version installée.
+
 **Crédits :**
 * **Développé par :** Pablo Villavicencio
 * **Moteur de connexion :** Android Debug Bridge (ADB)
@@ -232,6 +249,11 @@ A: Dafür gibt es drei Hauptgründe:
 **F: Das Programm schließt sich sofort nach dem Öffnen.**
 A: Stellen Sie sicher, dass sich `WebView2Loader.dll` im selben Ordner wie `DeployX.exe` befindet.
 
+### NEUERUNGEN IN v1.0.1
+* **Neue Funktionen:** "Hohe Qualität (H.265)"-Modus und FPS-Wahlschalter (30, 24, 15) für Bildschirmspiegelung/Aufnahme mit scrcpy hinzugefügt.
+* **Fehlerbehebungen:** Ein Problem wurde behoben, bei dem Bildschirmaufnahmen nicht im ausgewählten Pfad gespeichert wurden.
+* **Kritischer Patch:** Ein Fehler wurde behoben, der dazu führte, dass der interne Browser (WebView2) beim Öffnen von App-Stores in der installierten Version einen weißen Bildschirm anzeigte.
+
 **Credits:**
 * **Entwickelt von:** Pablo Villavicencio
 * **Verbindungs-Engine:** Android Debug Bridge (ADB)
@@ -286,6 +308,11 @@ R: Isso acontece por três motivos principais:
 
 **P: O programa abre, mas fecha quase imediatamente com um erro fatal.**
 R: Faltam arquivos vitais. Certifique-se de que o arquivo `WebView2Loader.dll` esteja exatamente na mesma pasta que `DeployX.exe`.
+
+### NOVIDADES NA v1.0.1
+* **Novas funcionalidades:** Adicionado o modo "Alta Qualidade (H.265)" e seletor de FPS (30, 24, 15) para espelhamento/gravação de tela com scrcpy.
+* **Correções:** Resolvido um problema onde as gravações de tela não eram salvas no caminho selecionado.
+* **Patch crítico:** Corrigido um bug que fazia o navegador interno (WebView2) exibir uma tela em branco ao abrir lojas de aplicativos na versão instalada.
 
 **Créditos:**
 * **Desenvolvido por:** Pablo Villavicencio
@@ -343,6 +370,11 @@ DeployX 是一款功能强大的 Windows 图形化工具，旨在通过 ADB (And
 **问：程序打开后几乎立即闪退。**
 答：缺少关键文件。请确保 `WebView2Loader.dll` 与 `DeployX.exe` 位于同一个文件夹中。
 
+### 更新日志 (v1.0.1)
+* **新功能：** 添加了“高质量 (H.265)”模式和 FPS 选择器（30, 24, 15），用于 scrcpy 的屏幕镜像/录制。
+* **错误修复：** 解决了屏幕录像未保存到所选路径的问题。
+* **关键补丁：** 修复了导致内部浏览器 (WebView2) 在安装版本中打开应用商店时显示白屏的错误。
+
 **鸣谢：**
 * **开发者：** Pablo Villavicencio
 * **连接引擎：** Android Debug Bridge (ADB)
@@ -397,6 +429,11 @@ A: 主に以下の3つの原因が考えられます：
 
 **Q: プログラムを開いてもすぐにクラッシュします。**
 A: 重要なファイルが不足しています。`WebView2Loader.dll` が `DeployX.exe` と全く同じフォルダー内にあることを確認してください。
+
+### 更新履歴 (v1.0.1)
+* **新機能：** scrcpyを使用した画面ミラーリング/録画用の「高画質（H.265）」モードとFPSセレクター（30、24、15）を追加しました。
+* **バグ修正：** 画面録画が選択したパスに保存されない問題を解決しました。
+* **重要なパッチ：** インストール版でアプリストアを開く際、内部ブラウザ（WebView2）が真っ白な画面を表示するバグを修正しました。
 
 **クレジット:**
 * **開発者：** Pablo Villavicencio
@@ -453,6 +490,11 @@ DeployX — это мощный графический инструмент дл
 
 **В: Программа открывается, но почти сразу закрывается.**
 О: Отсутствуют жизненно важные файлы. Убедитесь, что файл `WebView2Loader.dll` находится в той же папке, что и `DeployX.exe`.
+
+### ИСТОРИЯ ИЗМЕНЕНИЙ (v1.0.1)
+* **Новые функции:** Добавлен режим «Высокое качество (H.265)» и селектор FPS (30, 24, 15) для трансляции/записи экрана с помощью scrcpy.
+* **Исправления:** Решена проблема, из-за которой записи экрана не сохранялись по выбранному пути.
+* **Критический патч:** Исправлена ошибка, из-за которой внутренний браузер (WebView2) отображал белый экран при открытии магазинов приложений в установленной версии.
 
 **Авторы:**
 * **Разработчик:** Pablo Villavicencio
